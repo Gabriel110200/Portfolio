@@ -1,0 +1,92 @@
+body{ 
+    margin: 0; 
+    padding: 0; 
+    
+
+} 
+
+.customNav{
+    background-color: rgb(46, 97, 238); 
+    font-weight: bold;  
+    font-size: 1.5rem;  
+    color: white; 
+    border:1px solid black; 
+    padding-top: 5px;
+
+
+}  
+
+.customNav ul{
+    display: flex; 
+    flex-direction: row; 
+} 
+
+.customNav li{
+    margin-right:25px; 
+    list-style: none; 
+    
+}  
+
+.customNav li a{ 
+
+    color: white; 
+    text-decoration: none; 
+   
+
+}
+
+section{
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.aboutMe ,  .contato{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;  
+    color: white; 
+    background-color: rgb(27, 27, 27);
+    
+
+}  
+
+
+
+.aboutMe span{
+    color: rgb(18, 71, 247);
+}   
+
+.projects{
+    background-color:#355070; 
+    color: black; 
+    height: auto;
+}
+
+.projects h1{
+    color: white; 
+    margin: 30px;
+} 
+
+.icons{
+    display: flex; 
+    flex-direction: row;
+} 
+
+.icons img{
+    margin-right: 15px;
+}
+
+.contato img{
+    width:200px;
+} 
+
+
+
+/* .customNav{
+    font-weight: bold; 
+
+} */
