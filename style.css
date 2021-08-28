@@ -3,7 +3,8 @@ body{
     padding: 0; 
     
 
-} 
+}  
+
 
 .customNav{
     background-color: rgb(46, 97, 238); 
@@ -31,8 +32,6 @@ body{
 
     color: white; 
     text-decoration: none; 
-   
-
 }
 
 section{
@@ -82,7 +81,73 @@ section{
 
 .contato img{
     width:200px;
+}  
+
+.card-body{
+    background-color: darkslateblue; 
+    color: white;
 } 
+
+.button{
+    background-color: red; 
+    border-radius: 10px;  
+    border: 1px solid black;
+    color: white; 
+    padding: 10px 20px; 
+    text-decoration: none; 
+    width: 100px;
+}  
+
+.button:hover{
+    color: white; 
+    background-color: rgb(165, 16, 16);
+} 
+
+
+
+.card-body{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+
+
+
+.myName{
+    border-right: 2px solid white; 
+    animation: blink 0.8s infinite ;
+} 
+
+@keyframes blink{
+
+    from {
+        border-color: transparent;
+
+    } 
+
+    to{ 
+
+        border-color: white;
+
+    }
+
+
+}
+
+.icons{
+    width: 300px;
+} 
+
+.icons a{
+    color: white; 
+    text-decoration: none;
+} 
+
+.icons a:hover{
+    color: black; 
+    text-decoration: underline;
+}
 
 
 
